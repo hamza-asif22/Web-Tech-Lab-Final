@@ -3,9 +3,9 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './Redux/store';
-import DragonsList from './routes/DragonsList';
-import MissionsList from './routes/MissionsList';
-import MyProfile from './routes/MyProfile';
+import DragonsList from './components/DragonsList';
+import MissionsList from './components/MissionsList';
+import MyProfile from './components/MyProfile';
 
 function App() {
   return (
